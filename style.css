@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+body{
+    background-image: url(./img/rose\ \(2\).jpg);
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.container{
+    background: transparent;
+  padding: 1rem;
+  border-radius: 2rem;
+  border: 4px solid red;
+}
+#screen{
+    border:red 5px groove ;
+    height: 4rem;
+    border-radius: 0.8rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    padding: 0.8rem;
+    color: #fff;
+    font-size: 1.5rem;
+    text-align: right;
+}
+
+button{
+    width: 20%;
+    height: 3rem;
+    font-size: 1.4rem;
+    margin-top: 0.7rem;
+    background-color: rgba(173, 216, 230, 0.3);
+    border-radius: 1rem;
+    border: transparent;
+    color: #ffffff;
+}
+
+.allbuttons{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 2px;
+}
+button:active{
+    background-color:#ff0000;
+}
+.allbuttons >.zero{
+    width: 34%;
+    height: 3.5;
+    background-color: #ff0000;
+    bottom:-0.6rem;
+}
+.allbuttons> .zero:active{
+    background: transparent;
+}
+
+.allbuttons> .slash{
+    color: #ff0000;
+    font-size: 2rem;
+}
+.allbuttons> .slash:active{
+    color: #fff;
+}
+.allbuttons> .delete{
+    background-color: #ff0000;
+}
+.allbuttons> .delete:active{
+    background-color: transparent;
+}
+.allbuttons> .slash2{
+    width: 36%;
+    font-size: 2rem;
+    background-color: #ff0000;
+}
+.allbuttons> .slash2:active{
+    background-color: transparent;
+}
+
+
